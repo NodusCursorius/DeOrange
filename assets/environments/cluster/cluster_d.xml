@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<diff>
+	<replace sel="/components/component[@name='cluster_d']/layers/layer/lights">
+		<lights>
+			<omni name="XU Omni_sun" shadow="-1" r="255" g="255" b="255" range="1E+11" shadowrange="1E+11" lighteffect="1" trigger="1" intensity="2">
+				<lightanimations/>
+				<offset>
+					<position x="0" y="46644.53" z="1.022256E+08"/>
+				</offset>
+			</omni>
+			<ambient name="XU Ambient01" r="0" g="0" b="0" range="1E+08" intensity="1.5">
+				<lightanimations/>
+				<offset>
+					<position x="8.44207E+07" y="0" z="-4.103601E+07"/>
+				</offset>
+			</ambient>
+		</lights>
+	</replace>
+</diff>
